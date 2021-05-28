@@ -6,7 +6,7 @@ import { createHash, randomBytes } from 'crypto';
  */
 export const options = {
   algorithm: 'sha256',
-  seed: process.env.RANDOM_BYTES_BASE_SEED ?? 'random-bytes-seed',
+  seed: 'random-bytes-seed',
 };
 
 /**
