@@ -52,7 +52,7 @@ jobs:
       - name: Run Jest with coverage
         run: npm run test:cov
       - name: Upload coverage reports to Codecov
-        if: matrix.node == '16'  # Only upload coverage reports when using latest Node version
+        if: matrix.node == '16' # Only upload coverage reports when using latest Node version
         uses: codecov/codecov-action@v1
         with:
           files: ./coverage/clover.xml
