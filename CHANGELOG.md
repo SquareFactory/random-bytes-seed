@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 0.1.1 - GitHub repository](https://github.com/csquare-ai/random-bytes-seed/releases/tag/0.1.1)
+## [Version 0.1.1 - Non-default export](https://github.com/csquare-ai/random-bytes-seed/releases/tag/0.1.1)
 
 - **feat**(package): expose `randomBytesSeed` as a non default export
 - **chore**(package): change the GitHub repository to [csquare-ai/random-bytes-seed](https://github.com/csquare-ai/random-bytes-seed)
