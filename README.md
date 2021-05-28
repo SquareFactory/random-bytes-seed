@@ -25,7 +25,7 @@ yarn add @csquare/random-bytes-seed
 ```typescript
 import randomBytesSeed from '@csquare/random-bytes-seed';
 
-const output = randomBytesSeed(10, 'my-seed'); // Generate a 10-bytes, stable buffer
+const output = randomBytesSeed(10, 'my-seed'); / Generate a 10-bytes, stable buffer
 ```
 
 ### Advanced usage
@@ -39,7 +39,7 @@ change the base seed by overriding the default options.
 // Overriding the default options
 import { options } from '@csquare/random-bytes-seed';
 
-options.seed = 'any-string-you-want'; // Override the base seed for all future calls
+options.seed = 'any-string-you-want'; / Override the base seed for all future calls
 ```
 
 #### Changing the hash algorithm
