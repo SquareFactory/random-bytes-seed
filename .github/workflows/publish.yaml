@@ -86,5 +86,5 @@ jobs:
       - name: Publish new release
         uses: JS-DevTools/npm-publish@v1
         with:
-          token: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          token: ${{ secrets.NODE_AUTH_TOKEN }}
           access: public
