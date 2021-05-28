@@ -3,6 +3,7 @@
 ![licence](https://img.shields.io/github/license/csquare-ai/random-bytes-seed)
 ![version](https://img.shields.io/npm/v/@csquare/random-bytes-seed)
 ![size](https://img.shields.io/bundlephobia/min/@csquare/random-bytes-seed)
+![coverage](https://img.shields.io/codecov/c/github/csquare-ai/random-bytes-seed)
 
 Zero-dependency package to generate seeded random bytes.
 
