@@ -54,7 +54,7 @@ jobs:
         if: matrix.node == '16' # Only upload coverage reports when using latest Node version
         uses: codecov/codecov-action@v1
         with:
-          files: ./coverage/clover.xml
+          files: ./coverage/lcov.info
           verbose: true
   publish:
     name: Publish to GitHub registry
