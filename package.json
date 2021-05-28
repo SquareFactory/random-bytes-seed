@@ -1,6 +1,6 @@
 {
   "name": "@csquare/random-bytes-seed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Zero-dep package to generate random bytes using a seed.",
   "keywords": [
     "random-bytes",
