@@ -15,7 +15,7 @@ export const options = {
  * @param {Buffer | string} seed The seed. If not seed is provided, fallbacks to native {@link randomBytes}.
  * @return {Buffer} A pseudo random bytes buffer.
  */
-export default function randomBytesSeed(length: number, seed?: Buffer | string): Buffer {
+export function randomBytesSeed(length: number, seed?: Buffer | string): Buffer {
   // Validate the inputs
   if (typeof length !== 'number' || !Number.isInteger(length) || length < 1) {
     throw new TypeError('`length` argument must be a valid strictly positive integer.');
@@ -43,3 +43,5 @@ export default function randomBytesSeed(length: number, seed?: Buffer | string):
 
   return output.slice(0, length);
 }
+
+export default randomBytesSeed;
