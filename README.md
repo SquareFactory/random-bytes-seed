@@ -1,5 +1,9 @@
 # `@csquare/random-bytes-seed`
 
+![licence](https://img.shields.io/github/license/csquare-ai/random-bytes-seed)
+![version](https://img.shields.io/npm/v/@csquare/random-bytes-seed)
+![size](https://img.shields.io/bundlephobia/min/@csquare/random-bytes-seed)
+
 Zero-dependency package to generate seeded random bytes.
 
 Maintained by [Mathieu Bour](https://github.com/mathieu-bour), Lead Platform Engineer at [Cohesive Computing SA](https://csquare.ai).
