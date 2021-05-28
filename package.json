@@ -1,0 +1,54 @@
+{
+  "name": "@csquare-ai/random-bytes-seed",
+  "version": "0.1.0",
+  "description": "Zero-dep package to generate random bytes using a seed.",
+  "keywords": [
+    "random-bytes",
+    "seed",
+    "crypto"
+  ],
+  "homepage": "https://github.com/csquare-ai/random-bytes-seed#readme",
+  "bugs": {
+    "url": "https://github.com/csquare-ai/random-bytes-seed/issues",
+    "email": "mathieu@csquare.ai"
+  },
+  "license": "MIT",
+  "author": "Mathieu Bour <mathieu@csquare.ai> (https://github.com/mathieu-bour)",
+  "contributors": [],
+  "files": [
+    "dist/**"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "repository": "github:csquare-ai/c2id",
+  "scripts": {
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "clean": "rimraf dist",
+    "prepare": "npx is-ci || husky install",
+    "format": "prettier --write **/*.{ts,tsx,json,yaml,yml,md}",
+    "format:check": "prettier --check **/*.{ts,tsx,yaml,yml,md}",
+    "build": "run-p build:*",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@csquare/prettier-config": "^1.1.2",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.1",
+    "husky": "^6.0.0",
+    "jest": "^27.0.1",
+    "lint-staged": "^10.5.4",
+    "npm": "^7.14.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "standard-commit": "^4.2.4",
+    "ts-jest": "^27.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "prettier": "@csquare/prettier-config"
+}
