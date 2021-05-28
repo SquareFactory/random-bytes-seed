@@ -31,7 +31,7 @@ Using CommonJS syntax:
 
 <!-- prettier-ignore-start -->
 ```typescript
-const {randomBytesSeed} = require('@csquare/random-bytes-seed');
+const { randomBytesSeed } = require('@csquare/random-bytes-seed');
 
 const output = randomBytesSeed(10, 'my-seed'); // Generate a 10-bytes, stable buffer
 ```
@@ -51,7 +51,7 @@ or
 
 <!-- prettier-ignore-start -->
 ```typescript
-import {randomBytesSeed} from '@csquare/random-bytes-seed';
+import { randomBytesSeed } from '@csquare/random-bytes-seed';
 
 const output = randomBytesSeed(10, 'my-seed'); // Generate a 10-bytes, stable buffer
 ```
@@ -68,7 +68,7 @@ change the base seed by overriding the default options.
 
 <!-- prettier-ignore-start -->
 ```typescript
-import {options} from '@csquare/random-bytes-seed';
+import { options } from '@csquare/random-bytes-seed';
 
 options.seed = 'any-string-you-want'; // Override the base seed for all future calls
 ```
